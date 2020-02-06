@@ -14,6 +14,9 @@ class ViewController: UIViewController {
 var firstString = "The background will turn blue"
 var secondString = "The background color will turn to green"
     
+    @IBOutlet weak var RedLabel: UILabel!
+    @IBOutlet weak var BlueLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,11 +28,14 @@ var secondString = "The background color will turn to green"
         if firstString == "The background color will turn red"
         {
             self.view.backgroundColor = UIColor.red
+            self.RedLabel.text="Red"
         }
         else
         {
             self.view.backgroundColor = UIColor.blue
+            self.BlueLabel.text="Blue"
         }
     
     }
+//Problem Set 2
 }
