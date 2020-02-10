@@ -19,11 +19,10 @@ var secondString = "The background color will turn to green"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        // Do any additional setup after loading the view.}
 
 
-    @IBAction func changeButtonPressed(_ sender: Any)
+        func changeButtonPressed(_ sender: Any)
     {
         if firstString == "The background color will turn red"
         {
@@ -36,6 +35,30 @@ var secondString = "The background color will turn to green"
             self.BlueLabel.text="Blue"
         }
     
-    }
-//Problem Set 2
+        class ViewController: UIViewController {
+            
+    //Declare variables here
+        
+            @IBOutlet weak var GreenLabel: UILabel!
+            
+            override func viewDidLoad() {
+                super.viewDidLoad()
+                // Do any additional setup after loading the view.}
+            }
+      
+var backgroundString = "The background will turn red"
+var foregroundString = "The background color will turn to green"
+
+            @IBAction func changeButtonPressed(_ sender: Any)
+        {
+            if self.backgroundString == "The background color will turn green"
+            {
+                self.view.backgroundColor = UIColor.green
+                self.GreenLabel.text="Green"
+            }
+            print ("I completed both problem sets")
+}
+}
+}
+}
 }
