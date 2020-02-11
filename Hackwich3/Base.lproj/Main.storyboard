@@ -21,7 +21,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
-                                    <action selector="changeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyq-t7-Tc9"/>
+                                    <action selector="changeColorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eo7-QM-sCS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1WB-db-9s3">
@@ -44,8 +44,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Magic Button"/>
                                 <connections>
-                                    <action selector="changeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7XU-DH-nlV"/>
-                                    <action selector="changeColorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zd0-As-U9r"/>
+                                    <action selector="magicButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f1W-di-haf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Green Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoU-KV-AXo">
@@ -68,7 +67,7 @@
                     </view>
                     <connections>
                         <outlet property="BlueLabel" destination="rg2-Ha-QQL" id="ppw-4c-pQW"/>
-                        <outlet property="GreenLabel" destination="17f-1o-iN5" id="HYW-rp-Qb3"/>
+                        <outlet property="GreenLabel" destination="17f-1o-iN5" id="xn6-04-AbA"/>
                         <outlet property="RedLabel" destination="1WB-db-9s3" id="FOY-eK-wSM"/>
                     </connections>
                 </viewController>
