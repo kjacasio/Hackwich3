@@ -49,9 +49,13 @@ var secondString = "The background color will turn to green"
     {
         
         //code block
-        
-        
-        
+    
+        if backgroundString == "The background color will turn green"
+        {
+            self.view.backgroundColor = UIColor.green
+            self.GreenLabel.text="Green"
+        }
+        print ("I completed both problem sets")
         
         
         
